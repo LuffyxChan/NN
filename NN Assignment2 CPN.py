@@ -70,7 +70,6 @@ for loop in range(1):
 
 
 
-
   ob = CPN()
   epochs = 100
   loss1 = []
