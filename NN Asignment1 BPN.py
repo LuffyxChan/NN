@@ -46,4 +46,3 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 y_pred = ann.predict(X_test)
 y_pred = (y_pred > 0.5)
 accuracy_score(y_test, y_pred)
-
