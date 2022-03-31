@@ -341,4 +341,5 @@ array = np.array([0, 0, 0, 0, 1, 0, 0, 0,
                   0, 0, 1, 1, 1, 1, 0, 0])
 array = np.reshape(array, (8, 8))
 
+
 plt.subplot(1,2,2); plt.imshow(np.reshape(array,[8,8]), cmap='gist_gray'); plt.title('Updated Image'); plt.axis('off')
